@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+
+.main-content {
+    margin-left: 210px;
+    padding: 20px;
+}
+.btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.btn-registrar {
+    background-color: green;
+    color: white;
+    margin-right: 10px;
+}
+.btn-cancelar {
+    background-color: red;
+    color: white;
+}
+.btn-editar {
+    background-color: #ffc107;
+    color: black;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+}
+.btn-eliminar {
+    background-color: #dc3545;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+  border:none;
+}
+
+
+input, select {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    text-align: center;
+  gap: 5px;
+}
+th {
+    background-color: #17a2b8;
+    color: white;
+}
+.top-bar {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #dee2e6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-top {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.user-info {
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registrar Estudiante</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="main-content">
+    <h1>Registrar Estudiante</h1>
+
+    <form id="formulario">
+      <div style="display: flex; gap: 10px;">
+        <div style="flex: 1;">
+          <label>Documento</label>
+          <input type="number" id="documento" placeholder="Ingrese Documento" required>
+        </div>
+        <div style="flex: 1;">
+          <label>Nombre del Estudiante</label>
+          <input type="text" id="nombre" placeholder="Ingrese Nombre" required>
+        </div>
+      </div>
+
+      <label>Fecha de Nacimiento</label>
+      <input type="date" id="fechaNacimiento" required>
+
+      <div style="display: flex; gap: 10px;">
+        <div style="flex: 1;">
+          <label>Semestre</label>
+          <select id="semestre" required>
+            <option value="" disabled selected>Seleccione</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+        </div>
+        <div style="flex: 1;">
+          <label>Programa</label>
+          <input type="text" id="programa" placeholder="Ingrese Programa" required>
+        </div>
+      </div>
+
+      <button type="submit" class="btn btn-registrar">Registrar</button>
+      <button type="reset" class="btn btn-cancelar">Cancelar</button>
+    </form>
+
+    <h1>Listado de Estudiantes</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Documento</th>
+          <th>Nombre</th>
+          <th>Edad</th>
+          <th>Semestre</th>
+          <th>Programa</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+      </tbody>
+    </table>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
