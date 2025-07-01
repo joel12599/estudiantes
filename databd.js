@@ -1,16 +1,19 @@
 const mysql = require('mysql2');
+
 const db = mysql.createConnection({
-  host: 'localhost',
+  host: 'turntable.proxy.rlwy.net',
   user: 'root',
-  password: '123456',
-  database: 'repaso2.0',
+  password: 'UvdUwRPEkbkuUKLzmeJqiRMDPYSBKzPa',
+  database: 'railway',
+  port: 20992
 });
+
 db.connect((err) => {
   if (err) {
-    console.error('Error connecting to the database:', err);
+    console.error('Error connecting to the Railway database:', err);
     return;
   }
-  console.log('Connected to the database');
-});       
+  console.log('Connected to the Railway database');
+});
 
 module.exports = db;
