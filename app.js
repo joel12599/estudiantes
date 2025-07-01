@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const app = express();
-const conexion = require("./databd"); // ✅ CORREGIDO
+const conexion = require("./databd"); 
 
 app.use(cors());
 app.use(express.json());
